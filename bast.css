@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #121212;
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    display: block;
+    transition: ease .3s;
+}
+/***************************************************************************/
+/* typography
+/***************************************************************************/
+h1, h2, h3, h4, h5 {
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    border-bottom: solid 3px #000;
+    width: 294px;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+}
+a, a:visited {
+    color: #121212;
+    transition: ease .3s;
+}
+a:hover {
+    background-color: #1e1e1e;
+    color: #e1e1e1;
+}
+
+/***************************************************************************/
+/* input
+/***************************************************************************/
+input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+input[type="button"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="file"], input[type="radio"], input[type="range"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+input[type="button"], input[type="color"], input[type="date"] {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: solid 3px #1e1e1e;
+}
+input[type="button"]:hover, input[type="color"]:hover, input[type="date"]:hover {
+    background-color: #1e1e1e;
+    color: #e1e1e1;
+}
+input[type="color"] {
+    padding: 2px;
+}
